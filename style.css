@@ -1,10 +1,149 @@
-
-
-#banner{
-    width: 100%;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
-.titulo-cabecalho{
-    padding-left: 20px;
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    margin: 0 0 0 15px;
+    display: inline;
+}
+
+nav a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFBF00;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #00FF00;
+}
+
+.banner {
+    width: 100%;
+    border-top: solid 5px #000000;
+}
+
+.principal {
+    background: #DCDCDC;
+    padding: 50px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+p strong{
+    font-weight: bold;
+}
+
+p:hover {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.missao em {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.missao strong {
+    color: #FF0000;
+}
+
+.beneficios {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #FFFFFF;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    
+}
+
+.lista-beneficios li {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.imagemBeneficios {
+    width: 70%;
+    border: solid 5px #000000;
+    border-radius: 10px;
+}
+
+.imagemBeneficios:hover {
+    border: solid 6px #FFA500;
+}
+
+.lista-beneficios li:hover {
+    color: #FFA500;
+}
+
+.lista-beneficios li:active {
+    color: #00FF00;
+}
+
+.lista-beneficios h3:hover {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+
+
+
+
+/*.logo-cabecalho {
+    padding-left: 40px;
+    
 }
 
 .principal {
@@ -29,7 +168,7 @@ em strong{
     color: #FF0000;
 }
 
-ul{
+/*ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -49,4 +188,4 @@ ul{
 .imagemBeneficios{
     width: 50%;
 
-}
+}*/
