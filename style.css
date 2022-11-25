@@ -1,6 +1,7 @@
 header {
     background: #BBBBBB;
     padding: 20px 0;
+    border-bottom: solid 5px #000000;
 }
 
 .caixa {
@@ -109,15 +110,58 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input, form textarea {
+.input-padrao {
     display: block;
     margin: 0 0 15px;
     padding: 10px 15px;
     width: 40%;
 }
+
+.checkbox {
+    margin: 20 0;
+}
+
+.enviar {
+    width: 35%;
+    padding: 15px 0;
+    background: #FFBF00;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #FF8C00;
+    transform: scale(1.15);
+}
+
+table {
+    margin: 20px 0 30px;
+
+}
+
+thead {
+    background: #BBBBBB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+th, td {
+    font-size: 17px;
+    border: solid 1px #000000;
+    padding: 8px 15px;
+}
+
+
+
